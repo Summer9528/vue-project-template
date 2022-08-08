@@ -10,7 +10,6 @@
 export default {
   name: 'Home',
   created () {
-    console.log('process.env', process.env)
   }
 }
 </script>

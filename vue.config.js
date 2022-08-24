@@ -3,5 +3,7 @@
 
 module.exports = {
   publicPath: './',
-  outputDir: 'dist'
+  outputDir: 'dist',
+  lintOnSave: process.env.NODE_ENV === 'development',
+  devServer: {}
 }
